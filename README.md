@@ -66,6 +66,35 @@ docker compose up -d
 4. Open `http://localhost:8080` again and verify that the test post is still present.  
 If the post is still visible, the database and WordPress files are correctly persisted in Docker volumes.
 
+### Running on the cloud VM
+
+To run this stack on your cloud VM:
+
+1. SSH into your VM.
+2. Clone this repository into the `projects` directory:
+
+```bash
+cd ~/projects
+git clone https://github.com/USER/-wordpress-docker-lab.git
+cd -wordpress-docker-lab
+git checkout feature/wordpress-setup
+```
+
+3. Create the `.env` file from the template and adjust values if needed:
+
+```bash
+cp example.env .env
+```
+
+4. Start the stack:
+
+```bash
+docker compose up -d
+```
+
+5. Open `http://<VM-IP>:8080` in your browser and complete the WordPress installation wizard.
+6. After a restart of the stack (`docker compose down` / `docker compose up -d`), verify that your test post is still available to confirm data persistence.
+
 ## Configuration
 
 The stack is defined in `docker-compose.yaml` and uses environment variables from an `.env` file.
