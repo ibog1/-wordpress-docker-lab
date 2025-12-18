@@ -99,6 +99,10 @@ docker compose up -d
 
 The stack is defined in `docker-compose.yaml` and uses environment variables from an `.env` file.
 
+> **Note**  
+> Never commit your `.env` file or real credentials to the repository.  
+> The `.env` file is meant to stay local on your machine or server.
+
 ### Environment variables
 
 An example configuration is provided in [`example.env`](example.env).
