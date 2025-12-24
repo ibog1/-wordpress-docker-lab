@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # WordPress Docker Lab
 
 ## Table of Contents
