@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WordPress Docker Lab
 
 ## Table of Contents
@@ -116,3 +117,6 @@ docker compose up -d
 ```
 
 In `docker-compose.yaml` both services reference these variables via `env_file` and `${VAR}` syntax, so no credentials are stored directly in the compose file.
+=======
+
+>>>>>>> cce1ca42e7e9098a333cd7f8126b4ee3e992fb3d
