@@ -19,7 +19,7 @@ cd -wordpress-docker-lab
 ```
 
 
-3. Create the `.env` file from the template and adjust values if needed:
+3. Create the `.env` file from the template and **adjust values if needed**:
 ```bash
 cp example.env .env
 ```
