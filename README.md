@@ -5,7 +5,7 @@ This repository contains a minimal WordPress setup running in Docker using docke
 
 
 ## Table of Contents
-1. Quickstart
+1. [Quickstart](#quickstart)
 2. Usage
 3. Configuration
 
