@@ -18,8 +18,8 @@ git clone https://github.com/ibog1/-wordpress-docker-lab.git
 cd -wordpress-docker-lab
 ```
 
-> [!IMPORTANT]
-3. Create the `.env` file from the template and **adjust values if needed**:
+> [IMPORTANT]
+3. Create the `.env` file from the template and >adjust values if needed:
 ```bash
 cp example.env .env
 ```
