@@ -1,6 +1,4 @@
 # WordPress Docker Lab
-
-## Project Overview
 This repository contains a minimal WordPress setup running in Docker using docker-compose.
 
 
@@ -16,9 +14,9 @@ This repository contains a minimal WordPress setup running in Docker using docke
 
 
 ```bash
-   git clone https://github.com/ibog1/-wordpress-docker-lab.git
-   cd -wordpress-docker-lab
-   ```
+git clone https://github.com/ibog1/-wordpress-docker-lab.git
+cd -wordpress-docker-lab
+```
 
 
 3. Create the `.env` file from the template and adjust values if needed:
