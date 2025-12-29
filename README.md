@@ -18,11 +18,14 @@ git clone https://github.com/ibog1/-wordpress-docker-lab.git
 cd -wordpress-docker-lab
 ```
 
-> [IMPORTANT]
+
 3. Create the `.env` file from the template and >adjust values if needed:
 ```bash
 cp example.env .env
 ```
+> [!IMPORTANT]
+> **Adjust values if needed** in `.env` **before** starting containers!
+
 4. Run `docker compose up -d`.
 ```bash
 docker compose up -d
